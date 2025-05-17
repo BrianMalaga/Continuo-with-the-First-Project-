@@ -16,4 +16,8 @@ nav{
     width: 300px;
 }
 
+ul{
+    display: flex;
+}
+
 
