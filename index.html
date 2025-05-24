@@ -1,78 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
+  <body>
     <section>
-        <nav>
-            <img src="./Assets/HTML Practise Assets/FES.svg" class="logo" alt="">
-            <ul>
-                <a href="#About">About</a>
-                <a href="#Discord">Discord</a>
-                <a href="#Contact">Contact</a>
-            </ul>
-        </nav>
-        <header>
-            <div>
-                <h1>Best place to learn Frontend</h1>
-                <p>Go from absolute beginner to pro with simplified process</p>
-                <button>Start Now</button>
-            </div>
-            <figure>
-                <img src="./Assets/HTML Practise Assets/laptop.png" alt="">
-            </figure>
-        </header>
+      <nav>
+        <img src="./Assets/HTML Practise Assets/FES.svg" class="logo" alt="" />
+        <ul>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Discord">Discord</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row">
+          <div>
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader">
+              Go from absolute beginner to pro with simplified process
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img src="./Assets/HTML Practise Assets/laptop.png" alt="" />
+          </figure>
+        </div>
+      </header>
     </section>
 
     <main>
-        <section id="About">
-            <h2>About</h2>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores ipsum adipisci ipsa neque molestias amet consequatur corrupti porro deserunt iste quae, qui vel. Pariatur repellat, corporis voluptatibus quo dolor odit debitis sequi ipsam voluptate enim, amet asperiores eaque animi similique esse nihil deleniti illum natus saepe odio totam. Amet.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam, aspernatur molestias provident cum quidem repellat omnis nostrum placeat fugit sit officiis quas iure perspiciatis vero perferendis! At, doloribus debitis minima tenetur dolorum vel officiis asperiores natus expedita cupiditate dicta aut laudantium. Assumenda repudiandae delectus maiores aliquam voluptas reiciendis voluptatibus.</p>
-            </div>
-            <figure>
-                <img src="./Assets/HTML Practise Assets/about.jpg" alt="">
-            </figure>
-        </section>
-        <section id="Discord">
-            <h2>
-                Discord
-            </h2>
-            <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim cumque molestiae eligendi laborum aspernatur atque. Fuga debitis ab sunt neque laborum accusamus enim asperiores commodi maxime, voluptas dolorem similique, error suscipit totam odit? Saepe ad perferendis impedit architecto, illum ab voluptatem accusantium dignissimos delectus alias sed sequi id, laudantium qui!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum similique blanditiis eum minus, dolore eos, delectus tenetur laudantium quae expedita maxime illum sit doloribus placeat! Voluptatem consectetur possimus unde! Quaerat voluptatibus praesentium enim rem ad. Nihil, sunt necessitatibus quod nisi, blanditiis exercitationem eveniet omnis aliquid et ab rem voluptatum fugiat!</p>
-            </div>
-            <figure>
-                <img src="./Assets/HTML Practise Assets/discord.png" alt="">
-            </figure>
-        </section>
-        <section id="Contact">
-            <h2>Contact</h2>
-            <span>Email</span>
-            <form action="">
-                <input type="text" placeholder="jane@example.com">
-                <span>Message</span>
-                <textarea placeholder="Write Here"></textarea>
-            </form>
-        </section>
+      <section id="About">
+        <h2>About</h2>
+        <div class="section__description">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus maiores ipsum adipisci ipsa neque molestias amet
+              consequatur corrupti porro deserunt iste quae, qui vel. Pariatur
+              repellat, corporis voluptatibus quo dolor odit debitis sequi ipsam
+              voluptate enim, amet asperiores eaque animi similique esse nihil
+              deleniti illum natus saepe odio totam. Amet.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              aliquam, aspernatur molestias provident cum quidem repellat omnis
+              nostrum placeat fugit sit officiis quas iure perspiciatis vero
+              perferendis! At, doloribus debitis minima tenetur dolorum vel
+              officiis asperiores natus expedita cupiditate dicta aut
+              laudantium. Assumenda repudiandae delectus maiores aliquam
+              voluptas reiciendis voluptatibus.
+            </p>
+          </div>
+          <figure class="About__img--wrapper">
+            <img src="./Assets/HTML Practise Assets/about.jpg" alt="" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="Discord">
+        <h2>Discord</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            cumque molestiae eligendi laborum aspernatur atque. Fuga debitis ab
+            sunt neque laborum accusamus enim asperiores commodi maxime,
+            voluptas dolorem similique, error suscipit totam odit? Saepe ad
+            perferendis impedit architecto, illum ab voluptatem accusantium
+            dignissimos delectus alias sed sequi id, laudantium qui!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            similique blanditiis eum minus, dolore eos, delectus tenetur
+            laudantium quae expedita maxime illum sit doloribus placeat!
+            Voluptatem consectetur possimus unde! Quaerat voluptatibus
+            praesentium enim rem ad. Nihil, sunt necessitatibus quod nisi,
+            blanditiis exercitationem eveniet omnis aliquid et ab rem voluptatum
+            fugiat!
+          </p>
+        </div>
+        <figure>
+          <img src="./Assets/HTML Practise Assets/discord.png" alt="" />
+        </figure>
+      </section>
+
+      <section id="Contact">
+        <h2>Contact</h2>
+        <span>Email</span>
+        <form action="">
+          <input type="text" placeholder="jane@example.com" />
+          <span>Message</span>
+          <textarea placeholder="Write Here"></textarea>
+        </form>
+      </section>
     </main>
 
     <footer>
-        <img src="./Assets/HTML Practise Assets/FES.svg" alt="">
-        <div>
-            <a href="#About">About</a>
-            <a href="#Discord">Discord</a>
-            <a href="#Contact">Contact</a>
-            <a href="#Courses">Courses</a>
-        </div>
-        <p>Copy right Frontend simplified</p>
+      <img src="./Assets/HTML Practise Assets/FES.svg" alt="" />
+      <div>
+        <a href="#About">About</a>
+        <a href="#Discord">Discord</a>
+        <a href="#Contact">Contact</a>
+        <a href="#Courses">Courses</a>
+      </div>
+      <p>Copy right Frontend simplified</p>
     </footer>
-
-</body>
+  </body>
 </html>
